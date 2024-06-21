@@ -12,7 +12,7 @@ class Result(StudentName):
         self.grade = grade
         
     def display(self):
-        print(f"Name:\t ", self.name, "\nScore:\t ", self.score, "\nGrade:\t ", self.grade, "\n")
+        print(f"Name\t: ", self.name, "\nScore\t: ", self.score, "\nGrade\t: ", self.grade, "\n")
         
 def grade(score):
     if score >= 90:
